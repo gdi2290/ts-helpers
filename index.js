@@ -36,7 +36,7 @@ function __awaiterFn(thisArg, _arguments, P, generator) {
 }
 
 // hook global helpers
-(function(__global: any) {
+(function(__global) {
 
   __global.__assign = (__global && __global.__assign) || Object.assign || __assignFn;
   __global.__extends = (__global && __global.__extends) || __extendsFn;
